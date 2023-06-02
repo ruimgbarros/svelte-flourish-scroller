@@ -1,5 +1,5 @@
-<article class="max-w-4xl mx-auto mt-40 font-serif">
-	<h1 class="text-6xl text-center">
+<article class="max-w-4xl mx-auto mt-40 font-serif px-4">
+	<h1 class="text-5xl text-left lg:text-6xl lg:text-center">
 		"Dataharvest is the premier event to master coding for journalists"
 	</h1>
 
