@@ -52,4 +52,12 @@
 			opacity: 1;
 		}
 	}
+
+	[slot='foreground'] {
+		pointer-events: none;
+	}
+
+	/* [slot='foreground'] section {
+		pointer-events: all;
+	} */
 </style>
