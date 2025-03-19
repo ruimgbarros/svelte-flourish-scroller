@@ -3,10 +3,14 @@
 @tailwind utilities;
 
 a {
-    @apply text-blue-500;
-    text-decoration: underline;
+	@apply text-blue-500;
+	text-decoration: underline;
 }
 
 a:hover {
-    @apply text-blue-700;
+	@apply text-blue-700;
+}
+
+[slot='foreground'] {
+	pointer-events: none !important;
 }

@@ -1,5 +1,5 @@
 <script>
-	import Scroller from '@sveltejs/svelte-scroller';
+	import Scroller from './Scroller.svelte';
 	import FlourishEmbed from './FlourishEmbed.svelte';
 	import Step from './Step.svelte';
 
@@ -53,11 +53,7 @@
 		}
 	}
 
-	[slot='foreground'] {
-		pointer-events: none;
+	:global(svelte-scroller-foreground) {
+		pointer-events: none !important;
 	}
-
-	/* [slot='foreground'] section {
-		pointer-events: all;
-	} */
 </style>
